@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import LandingPage from './routes/LandingPage/LandingPage';
+import Minutes from './STORE';
 import './App.css';
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
             path="/"
             component={LandingPage}
           />
-
+          <Route
+            path="/minutes"
+            component={Minutes}
+          />
         </Switch>
       </main>
     </div>
