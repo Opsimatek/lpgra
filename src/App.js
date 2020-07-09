@@ -1,31 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './global';
+import { theme } from './theme';
+import { Burger, Menu } from './Components';
 import { Switch, Route } from 'react-router-dom';
 import LandingPage from './routes/LandingPage/LandingPage';
 import Minutes from './STORE';
 import './App.css';
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          LPGRA
-        </h1>
-      </header>
-      <main className="App__main">
-        <Switch>
-          <Route
-            exact
-            path="/"
-            component={LandingPage}
-          />
-          <Route
-            path="/minutes"
-            component={Minutes}
-          />
-        </Switch>
-      </main>
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <div className="App">
+          <header className="App-header">
+            <div>
+              <Burger open={open} setOpen={setOpen} />
+              <Menu open={open} setOpen={setOpen} />
+            </div>
+            <h1>
+              Las Palmas Grand Residents' Association - LPGRA
+            </h1>
+          </header>
+          <main className="App__main">
+            <Switch>
+              <Route
+                exact
+                path="/"
+                component={LandingPage}
+              />
+              <Route
+                path="/minutes"
+                component={Minutes}
+              />
+            </Switch>
+          </main>
+        </div>
+      </>
+    </ThemeProvider>
   );
 }
 
