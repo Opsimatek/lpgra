@@ -4,7 +4,7 @@ import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Burger, Menu } from './Components';
 import { Switch, Route } from 'react-router-dom';
-import LandingPage from './routes/LandingPage/LandingPage';
+import { LandingPage } from './routes';
 import Minutes from './STORE';
 import './App.css';
 
