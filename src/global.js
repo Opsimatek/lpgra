@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     html, body {
-        margin: 10px;
+        margin: 10px 0;
         padding: 0;
     }
     *, *::after, *::before {
@@ -17,5 +17,11 @@ export const GlobalStyles = createGlobalStyle`
         height: 100vh;
         justify-content: center;
         text-rendering: optimizeLegibility;
+    }
+    h1 {
+        position: fixed;
+        top: 0;
+        left: 4.5rem;
+        text-align: center;
     }
     `

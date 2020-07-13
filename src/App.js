@@ -6,7 +6,7 @@ import { Burger, Menu } from './Components';
 import { Switch, Route } from 'react-router-dom';
 import { LandingPage, LinksPage, BylawsPage } from './routes';
 import Minutes from './STORE';
-import './App.css';
+// import './App.css';
 
 function App() {
   const [open, setOpen] = useState(false);

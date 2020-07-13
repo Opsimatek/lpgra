@@ -7,7 +7,9 @@ const Burger = ({ open, setOpen }) => {
     <StyledBurger open={open} onClick={() => setOpen(!open)}>
       <div />
       <div />
-      <div />
+      <div>
+        <p>Menu</p>
+      </div>
     </StyledBurger>
   )
 }
