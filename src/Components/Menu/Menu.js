@@ -12,13 +12,13 @@ const Menu = ({ open }) => {
                 Newletters
             </a>
             <a href="/">
-                Meeting Minutes
-            </a>
-            <a href="/links">
-                Informational Links
+                Meetings
             </a>
             <a href="/">
                 Meet The Board
+            </a>
+            <a href="/links">
+                Informational Links
             </a>
             <a href="/">
                 Contact
