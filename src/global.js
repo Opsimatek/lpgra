@@ -18,10 +18,4 @@ export const GlobalStyles = createGlobalStyle`
         justify-content: center;
         text-rendering: optimizeLegibility;
     }
-    h1 {
-        position: fixed;
-        top: 0;
-        left: 4.5rem;
-        text-align: center;
-    }
     `
