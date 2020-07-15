@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { StyledBylaws } from './BylawsPage.style';
 
 export default class BylawsPage extends Component {
     render() {
         return (
-            <div>
+            <StyledBylaws>
                 <h2>
                     Las Palmas Grand Residents' Association Bylaws
                 </h2>
@@ -86,35 +87,35 @@ export default class BylawsPage extends Component {
                     Section 1.
                 </h4>
                 <section>
-                    President
+                    <span>President</span>
                     The President shall preside at all meetings of the association. In addition to his or her duties, he or she shall serve as Sergeant-At-Arms when appropriate. The President shall be responsible for attending (or sending a representative) to all appropriate AAMHO meetings and reporting the results to the membership. 
                 </section>
                 <h4>
                     Section 2.
                 </h4>
                 <section>
-                    1st Vice President
+                    <span>1st Vice President</span>
                     The 1st Vice President shall assume the responsibilities of the President should the President be absent.
                 </section>
                 <h4>
                     Section 3.
                 </h4>
                 <section>
-                    2nd Vice President
+                    <span>2nd Vice President</span>
                     The 2nd Vice President shall assume the responsibilities of the 1st Vice President should the 1st Vice President and the President be absent.  The 2nd Vice President shall serve as liaison to other Thesman Communities.
                 </section>
                 <h4>
                     Section 4.
                 </h4>
                 <section>
-                    Secretary
+                    <span>Secretary</span>
                     The Secretary shall record the minutes of all association meetings and maintain association files and history.
                 </section>
                 <h4>
                     Section 5.
                 </h4>
                 <section>
-                    Treasurer
+                    <span>Treasurer</span>
                     The Treasurer shall be responsible for receiving and disbursing all association funds while maintaining proper accounting of same.
                 </section>
                 <h3>
@@ -124,21 +125,21 @@ export default class BylawsPage extends Component {
                     Section 1.
                 </h4>
                 <section>
-                    Nominating Committee
+                    <span>Nominating Committee</span>
                     The Nominating Committee of not less than three (3) or more than five (5) members of the Association shall be appointed each year, two (2) months before the annual meeting, to draw up a slate of candidates willing to serve on the Board of Directors. The Nominating Committee will report the slate of candidates at the October Board meeting.  Each candidate will be asked to prepare a bio of themselves to be presented at the November general meetings before the elections are conducted.  
                 </section>
                 <h4>
                     Section 2.
                 </h4>
                 <section>
-                    Communications Committee
+                    <span>Communications Committee</span>
                     The Communications Committee of not less than three (3) nor more than five (5) members of LPGRA shall be appointed each year for the purpose of providing information to the entire community.
                 </section>
                 <h4>
                     Section 3.
                 </h4>
                 <section>
-                    Community Relations Committee
+                    <span>Community Relations Committee</span>
                     The Community Relations Committee of not less than three (3) nor more than seven (7) members of LPGRA shall be appointed each year for the purpose of enhancing rapport and to protect and improve the quality of life enjoyed by residents of Las Palmas Grand.
                 </section>
                 <h3>
@@ -148,35 +149,35 @@ export default class BylawsPage extends Component {
                     Section 1.
                 </h4>
                 <section>
-                    Quorum
+                    <span>Quorum</span>
                     Is defined as a simple majority of the average meeting attendance.
                 </section>
                 <h4>
                     Section 2.
                 </h4>
                 <section>
-                    Annual Meeting
+                    <span>Annual Meeting</span>
                     The LPGRA shall hold an annual meeting during the month of November, at a date and time set by the Board of Directors. Business at this meeting shall include the election of Board members for the ensuing year.
                 </section>
                 <h4>
                     Section 3.
                 </h4>
                 <section>
-                    General Meetings
+                    <span>General Meetings</span>
                     General Meetings of the members shall be held at least quarterly and as needed.  General Meetings are usually held at 10 a.m. on the first (1st.) Thursday of the month following the Java meeting.
                 </section>
                 <h4>
                     Section 4.
                 </h4>
                 <section>
-                    Board of Directors Meetings
+                    <span>Board of Directors Meetings</span>
                     The Board of Directors shall hold monthly meetings and as needed.  These meetings will usually be held at 10 a.m. on the third (3rd.) Thursday of the month.
                 </section>
                 <h4>
                     Section 5.
                 </h4>
                 <section>
-                    Special Meetings
+                    <span>Special Meetings</span>
                     The President, Board of Directors or twenty-five  (25) percent of the average meeting attendance may call a Special Meeting at any time.
                 </section>
                 <h4>
@@ -189,14 +190,14 @@ export default class BylawsPage extends Component {
                     Section 7.
                 </h4>
                 <section>
-                    Attendance
+                    <span>Attendance</span>
                     All Annual, General and Special Meetings shall be open to all residents of Las Palmas Grand. 
                 </section>
                 <h4>
                     Section 8.
                 </h4>
                 <section>
-                    Rules of Order
+                    <span>Rules of Order</span>
                     The usual Parliamentary rules as laid down in “Roberts Rules of Order” shall govern all deliberations, when not in conflict with these bylaws. 
                 </section>
                 <h3>
@@ -215,7 +216,7 @@ export default class BylawsPage extends Component {
                     Revisions to these bylaws are effective on the date of ratification by the members.
                 </section>
                 <p>~ Revised March 2018</p>
-            </div>
+            </StyledBylaws>
         )
     }
 }
