@@ -1,5 +1,6 @@
 const Officers = [
     {
+        id: 1,
         position: "President",
         name: "Margaret Jacoby",
         unit: 661,
@@ -9,6 +10,7 @@ const Officers = [
         photo: ""
     },
     {
+        id: 2,
         position: "First Vice President",
         name: "Dave Eason",
         unit: 67,
@@ -18,6 +20,7 @@ const Officers = [
         photo: ""
     },
     {
+        id: 3,
         position: "Second Vice President",
         name: "Sharon Hauser",
         unit: 184,
@@ -27,6 +30,7 @@ const Officers = [
         photo: ""
     },
     {
+        id: 4,
         position: "Secretary",
         name: "Peggy Marcone",
         unit: 418,
@@ -36,6 +40,7 @@ const Officers = [
         photo: ""
     },
     {
+        id: 5,
         position: "Treasurer",
         name: "Walt Smiles",
         unit: 354,
@@ -46,4 +51,4 @@ const Officers = [
     }
 ]
 
-// export default STORE; 
+export default Officers; 
