@@ -4,8 +4,8 @@ import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Nav } from './Components';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage, LinksPage, BylawsPage } from './routes';
-import Minutes from './STORE';
+import { LandingPage, LinksPage, BylawsPage, MinutesListPage } from './routes';
+// import Minutes from './STORE';
 // import './App.css';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
               />
               <Route
                 path="/minutes"
-                component={Minutes}
+                component={MinutesListPage}
               />
               <Route
                 path="/links"
