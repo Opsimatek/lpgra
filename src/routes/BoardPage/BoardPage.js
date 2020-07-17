@@ -1,27 +1,34 @@
 import React, { Component } from 'react';
-import { StyledBoard } from './BoardPage.style';
+// import { StyledBoard } from './BoardPage.style';
+import { Officer } from '../../Components';
 import Officers from '../../Data/Officers';
 
 export default class BoardPage extends Component {
-    renderOfficers() {
-        return Officers.map((Officer) => {
-            <Officer
-                key={Officer.id}
-                position={Officer.position}
-                name={Officer.name}
-                unit={Officer.unit}
-                phoneNumber={Officer.phoneNumber}
-                term={Officer.term}
-                email={Officer.email}
-                photo={Officer.photo}
-            />
+    renderOfficers = (Officers) => {
+        Officers.map((officer) => {
+            return (
+                <Officer
+                    // key={officer.id}
+                    // position={officer.position}
+                    // name={officer.name}
+                    // unit={officer.unit}
+                    // phoneNumber={officer.phoneNumber}
+                    // term={officer.term}
+                    // email={officer.email}
+                    // photo={officer.photo}
+                    officer={officer}
+                />
+            )
         })
     }
     render() {
+        console.log("Officers", Officers);
         return (
-            <StyledBoard>
-                
-            </StyledBoard>
+            // <StyledBoard>
+                <ul>
+                    {this.renderOfficers(Officers)}
+                </ul>
+            // </StyledBoard>
         )
     }
 }

@@ -4,7 +4,7 @@ import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Nav } from './Components';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage, LinksPage, BylawsPage, MinutesListPage } from './routes';
+import { LandingPage, LinksPage, BylawsPage, MinutesListPage, BoardPage } from './routes';
 // import Minutes from './STORE';
 // import './App.css';
 
@@ -35,6 +35,10 @@ function App() {
               <Route
                 path="/bylaws"
                 component={BylawsPage}
+              />
+              <Route
+                path="/board"
+                component={BoardPage}
               />
             </Switch>
           </main>

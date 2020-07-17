@@ -14,7 +14,7 @@ const Menu = ({ open }) => {
             <a href="/">
                 Meetings
             </a>
-            <a href="/">
+            <a href="/board">
                 Meet The Board
             </a>
             <a href="/links">
