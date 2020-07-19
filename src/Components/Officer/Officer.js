@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Officer(props) {
-    console.log('Props: ', props)
-    return (
-        <li>
-            <h2>{this.props.position}</h2>
-            <h3>{this.props.name}</h3>
-            <img src={this.props.photo} alt={this.props.name} />
-            <p>Current term ends November {this.props.term}</p>
-            <p>Unit #{this.props.unit}</p>
-            <p>Phone: {this.props.phone}</p>
-            <p>Email: {this.props.email}</p>
-        </li>
-    )
+export default class Officer extends Component {
+    render() {
+        console.log('Props: ', this.props)
+        const {
+            name,
+            position,
+            photo,
+            term,
+            unit,
+            phone,
+            email
+        } = this.props;
+        return (
+            <li>
+                <h2>{position}</h2>
+                <h3>{name}</h3>
+                <img src={photo} alt={name} />
+                <p>Current term ends November {term}</p>
+                <p>Unit #{unit}</p>
+                <p>Phone: {phone}</p>
+                <p>Email: {email}</p>
+            </li>
+        )
+    }  
 }
 
