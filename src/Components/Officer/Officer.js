@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
-// import { photo } from '../../images';
-// import { StyledOfficer } from './Officer.style';
+import { StyledOfficer } from './Officer.style';
 
 export default class Officer extends Component {
     render() {
-        // console.log('Props: ', this.props)
+        const { officer } = this.props;
+
         const {
             name,
             position,
-            photo,
             term,
             unit,
-            phone,
+            phoneNumber,
             email
-        } = this.props;
-        console.log('photo: ', photo);
+        } = officer;
+        
         return (
-            <li>
+            <StyledOfficer>
                 <h2>{position}</h2>
                 <h3>{name}</h3>
-                {/* <img src={`../../images/${photo}`} alt={name} /> */}
-                <p>Current term ends November {term}</p>
                 <p>Unit #{unit}</p>
-                <p>Phone: {phone}</p>
+                <p>Phone: {phoneNumber}</p>
                 <p>Email: {email}</p>
-            </li>
+                <p>Current term ends November {term}</p>
+            </StyledOfficer>
         )
     }  
 }

@@ -4,30 +4,18 @@ import { Officer } from '../../Components';
 import Officers from '../../Data/Officers';
 
 export default class BoardPage extends Component {
+    
     renderOfficers = () => {
         return Officers.map((officer) => (
-            // console.log(officer)
-            // return (
-                <>
+            <li>
                 <img src={officer.photo} alt={officer.name} />
                 <Officer
-                    key={officer.id}
-                    position={officer.position}
-                    name={officer.name}
-                    unit={officer.unit}
-                    phoneNumber={officer.phoneNumber}
-                    term={officer.term}
-                    email={officer.email}
-                    photo={officer.photo}
-                    // officer={officer}
+                    officer={officer}
                 />
-                </>
-            // )
+            </li>
         ))
     }
     render() {
-        // console.log("Officers", Officers);
-        // console.log(this.props)
         return (
             <StyledBoard>
                 {this.renderOfficers()}
