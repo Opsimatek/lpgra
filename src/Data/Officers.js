@@ -17,7 +17,7 @@ const Officers = [
         phoneNumber: "480-584-9461",
         term: 2020,
         email: "daveeason@yahoo.com",
-        photo: ""
+        photo: "IMG_0047"
     },
     {
         id: 3,

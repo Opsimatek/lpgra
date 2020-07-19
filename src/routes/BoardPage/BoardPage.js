@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { StyledBoard } from './BoardPage.style';
+import { StyledBoard } from './BoardPage.style';
 import { Officer } from '../../Components';
 import Officers from '../../Data/Officers';
 
@@ -8,6 +8,8 @@ export default class BoardPage extends Component {
         return Officers.map((officer) => (
             // console.log(officer)
             // return (
+                <>
+                <img src={officer.photo} alt={officer.name} />
                 <Officer
                     key={officer.id}
                     position={officer.position}
@@ -19,6 +21,7 @@ export default class BoardPage extends Component {
                     photo={officer.photo}
                     // officer={officer}
                 />
+                </>
             // )
         ))
     }
@@ -26,11 +29,9 @@ export default class BoardPage extends Component {
         // console.log("Officers", Officers);
         // console.log(this.props)
         return (
-            // <StyledBoard>
-                <ul>
-                    {this.renderOfficers()}
-                </ul>
-            // </StyledBoard>
+            <StyledBoard>
+                {this.renderOfficers()}
+            </StyledBoard>
         )
     }
 }
