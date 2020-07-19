@@ -1,3 +1,7 @@
+import DaveEason from '../images/dave_eason.jpeg';
+import MargaretJacoby from '../images/margaret_jacoby.jpg';
+import Fountain from '../images/fountain.jpeg';
+
 const Officers = [
     {
         id: 1,
@@ -7,7 +11,7 @@ const Officers = [
         phoneNumber: "310-621-7339",
         term: 2021,
         email: "margaret@mjms.net",
-        photo: ""
+        photo: MargaretJacoby
     },
     {
         id: 2,
@@ -17,7 +21,7 @@ const Officers = [
         phoneNumber: "480-584-9461",
         term: 2020,
         email: "daveeason@yahoo.com",
-        photo: ""
+        photo: DaveEason
     },
     {
         id: 3,
@@ -27,7 +31,7 @@ const Officers = [
         phoneNumber: "913-645-0675",
         term: 2020,
         email: "shauser7533@gmail.com",
-        photo: ""
+        photo: Fountain
     },
     {
         id: 4,
@@ -37,7 +41,7 @@ const Officers = [
         phoneNumber: "585-752-8279",
         term: 2020,
         email: "pmarcone1511@gmail.com",
-        photo: ""
+        photo: Fountain
     },
     {
         id: 5,
@@ -47,7 +51,7 @@ const Officers = [
         phoneNumber: "474-370-2645",
         term: 2021,
         email: "wlsmiles@comcast.net",
-        photo: ""
+        photo: Fountain
     }
 ]
 

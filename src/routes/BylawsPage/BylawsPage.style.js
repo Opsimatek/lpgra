@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledBylaws = styled.div`
+    padding: 100px 10px;
+    
     span {
         font-weight: bold;
         display: block;

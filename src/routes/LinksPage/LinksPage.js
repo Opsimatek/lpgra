@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { StyledLinks } from './LinksPage.style';
 
 export default class LinksPage extends Component {
     render() {
         return (
-            <div>
+            <StyledLinks>
                 <h2>Informational Links</h2>
                 <ul>
                     <li>
@@ -44,7 +45,7 @@ export default class LinksPage extends Component {
                         <Link to="/bylaws">LPGRA Bylaws</Link>
                     </li>
                 </ul>
-            </div>
+            </StyledLinks>
         )
     }
 }

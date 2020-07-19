@@ -8,10 +8,10 @@ const Menu = ({ open }) => {
             <a href="/">
                 Home
             </a>
-            <a href="/">
+            <a href="/newsletters">
                 Newletters
             </a>
-            <a href="/">
+            <a href="/meetings">
                 Meetings
             </a>
             <a href="/board">
@@ -20,7 +20,7 @@ const Menu = ({ open }) => {
             <a href="/links">
                 Informational Links
             </a>
-            <a href="/">
+            <a href="/contact">
                 Contact
             </a>
         </StyledMenu>
