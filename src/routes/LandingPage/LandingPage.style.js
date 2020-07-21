@@ -5,8 +5,8 @@ export const StyledLandingPage = styled.div`
     padding: 10px 50px;
     background-image: 
         linear-gradient(
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.8)
+            rgba( 0, 0, 0, 0),
+            rgba(0, 0, 0, 0.5)
         ),
         url(${background});
     background-repeat: no-repeat;
@@ -22,7 +22,6 @@ export const StyledLandingPage = styled.div`
         position: absolute;
         bottom: 10px;
         left: 10px;
-
     }
     span {
         font-weight: 650;
