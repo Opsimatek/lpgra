@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import background from '../../images/fountain.jpeg';
+import background from '../../images/fountain.jpg';
 
 export const StyledLandingPage = styled.div`
     padding: 10px 50px;
     background-image: 
         linear-gradient(
             rgba( 0, 0, 0, 0),
-            rgba(0, 0, 0, 0.5)
+            rgba(0, 0, 0, 0.7)
         ),
         url(${background});
     background-repeat: no-repeat;

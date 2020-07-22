@@ -1,6 +1,7 @@
 import DaveEason from '../images/dave_eason.jpeg';
 import MargaretJacoby from '../images/margaret_jacoby.jpg';
-import Fountain from '../images/fountain.jpeg';
+import Fountain from '../images/fountain.jpg';
+import PeggyMarcone from '../images/peggy_marcone.jpg'
 
 const Officers = [
     {
@@ -41,7 +42,7 @@ const Officers = [
         phoneNumber: "585-752-8279",
         term: 2020,
         email: "pmarcone1511@gmail.com",
-        photo: Fountain
+        photo: PeggyMarcone
     },
     {
         id: 5,
