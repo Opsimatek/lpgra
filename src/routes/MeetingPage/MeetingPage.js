@@ -21,7 +21,6 @@ export default class MeetingPage extends Component {
         const { meeting } = this.props.location.state;
         const { date, intro, oldBusiness, newBusiness, residentComments, nextMeeting, submittedBy } = meeting;
         
-        // console.log(this);
         return (
             <StyledMeetingPage>
                 <h2>LPGRA Meeting Minutes from {date.month} {date.day}, {date.year}</h2>

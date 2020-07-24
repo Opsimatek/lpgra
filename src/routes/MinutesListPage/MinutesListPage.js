@@ -8,7 +8,7 @@ export default class MinutesListPage extends Component {
     renderMinutes() {
         return !MinutesData.length
             ? <p>Currently no meeting minutes available, Please try back later.</p>
-            : MinutesData.map((datum) => <Minutes
+            : MinutesData.reverse().map((datum) => <Minutes
                     key={datum.id}
                     meeting={datum}
                 />
