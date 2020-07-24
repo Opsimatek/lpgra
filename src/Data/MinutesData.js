@@ -1,4 +1,4 @@
-const Minutes = [
+const MinutesData = [
     {
         id: 1,
         date: {
@@ -113,4 +113,4 @@ const Minutes = [
     }
 ]
 
-export default Minutes;
+export default MinutesData;

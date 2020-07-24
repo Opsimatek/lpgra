@@ -1,23 +1,25 @@
+/* eslint-disable no-unused-expressions */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Minutes from '../../Data/Minutes';
+import MinutesData from '../../Data/MinutesData';
+import { Minutes } from '../../Components';
+import { StyledMinutesList } from './MinutesListPage.style'
 
 export default class MinutesListPage extends Component {
     renderMinutes() {
-        Minutes.map((meeting) => {
-             return <Link to={{
-                pathname:`/meeting/${meeting.id}`
-             }}>
-                {meeting.date.month}{" "}{meeting.date.year}
-            </Link>
-        })
+        return !MinutesData.length
+            ? <p>Currently no meeting minutes available, Please try back later.</p>
+            : MinutesData.map((datum) => <Minutes
+                    key={datum.id}
+                    meeting={datum}
+                />
+            )
     }
 
     render() {
         return (
-            <>
-                {this.renderMinutes()};
-            </>
+            <StyledMinutesList>
+                {this.renderMinutes()}
+            </StyledMinutesList>
         )
     }
 }
