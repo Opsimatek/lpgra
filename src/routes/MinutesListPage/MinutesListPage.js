@@ -18,6 +18,7 @@ export default class MinutesListPage extends Component {
     render() {
         return (
             <StyledMinutesList>
+                <h2>Meetings Minutes List</h2>
                 {this.renderMinutes()}
             </StyledMinutesList>
         )

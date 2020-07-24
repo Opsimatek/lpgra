@@ -25,6 +25,7 @@ function App() {
                 component={LandingPage}
               />
               <Route
+                exact
                 path="/minutes"
                 component={MinutesListPage}
               />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { StyledMinutes } from './Minutes.style';
 
 export default function Minutes(props) {
     const { meeting } = props;
