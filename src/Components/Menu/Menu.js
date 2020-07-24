@@ -11,7 +11,7 @@ const Menu = ({ open }) => {
             <a href="/newsletters">
                 Newletters
             </a>
-            <a href="/meetings">
+            <a href="/minutes">
                 Meetings
             </a>
             <a href="/board">
