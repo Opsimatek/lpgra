@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { StyledLinks } from './LinksPage.style';
+import request from '../../images/request_form.pdf';
 
 export default class LinksPage extends Component {
     render() {
@@ -43,6 +44,9 @@ export default class LinksPage extends Component {
                     </li>
                     <li>
                         <Link to="/bylaws">LPGRA Bylaws</Link>
+                    </li>
+                    <li>
+                        <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
                     </li>
                 </ul>
             </StyledLinks>

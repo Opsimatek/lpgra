@@ -16,5 +16,10 @@ export const StyledContact = styled.div`
     a {
         text-decoration: none;
         padding: 5px;
+        display: block;
+    }
+
+    p > a {
+        display: inline;
     }
 `

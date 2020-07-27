@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyledContact } from './ContactPage.style';
+import request from '../../images/request_form.pdf';
 
 export default class ContactPage extends Component {
     render() {
@@ -21,6 +22,9 @@ export default class ContactPage extends Component {
                 <a href="mailto:lpgraboard9@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
                     lpgraboard@gmail.com 
                 </a>
+               
+                <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
+
                 <div>
                     <p>
                         If you'd like to contact the web developer you can 
