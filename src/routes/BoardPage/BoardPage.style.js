@@ -10,6 +10,10 @@ export const StyledBoard = styled.ul`
         padding: 10px;
     }
 
+    img {
+        border-radius: 15px;
+    }
+
     @media (min-width: ${({ theme }) => theme.mobile}) {
         li {    
             display: flex;
