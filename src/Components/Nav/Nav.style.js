@@ -21,10 +21,7 @@ export const StyledNav = styled.header`
     h1 {
         margin: 5px 0;
         vertical-align: middle;
-        // width: 90vw;
         font-weight: 600;
-        // background-color: grey;
-        // text-align: center;
         position: absolute;
         top: 1rem;
         left: 5rem;
@@ -34,15 +31,13 @@ export const StyledNav = styled.header`
         @media (min-width: ${({ theme }) => theme.mobile}) {
             font-size: 2rem;
             text-align: center;
-            // display: block;
-            // margin-left: 70px
           }
 
         @media (min-width: 850px) {
             width: 90vw;
         }
 
-        @media (max-width: 250px) {
+        @media (max-width: 260px) {
             font-size: 0.9rem;
         }
       }
