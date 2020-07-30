@@ -18,6 +18,10 @@ export const StyledMenu = styled.nav`
     width: 100%;
   }
 
+  @media (max-height: 450px) {
+    padding-top: 85px;
+  }
+
   a {
     font-size: 2rem;
     text-transform: uppercase;
@@ -33,8 +37,14 @@ export const StyledMenu = styled.nav`
       text-align: center;
     }
 
+    @media (max-height: 450px) {
+      font-size: 1.2rem;
+    }
+
     &:hover {
       color: ${({ theme }) => theme.primaryHover};
     }
   }
+
+
 `;
