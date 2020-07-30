@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledNav = styled.header`
-    // h1 {
-        // position: fixed;
-        // top: 0;
-        // left: 4.5rem;
-        // text-align: center;
-    // }
     height: 95px;
     display: flex;
     align-items: center;
@@ -20,19 +14,31 @@ export const StyledNav = styled.header`
     flex-direction: row;
     z-index: 99;
 
+    @media (min-width: ${({ theme }) => theme.mobile}) {
+        height: 110px;
+    }
+
     h1 {
         margin: 5px 0;
         vertical-align: middle;
-        // width: 100%;
         font-weight: 600;
-        // background-color: white;
-        // text-align: center;
+        position: absolute;
+        top: 1rem;
+        left: 5rem;
+        text-align: center;
+        font-size: 1.2rem;
 
-        @media (max-width: ${({ theme }) => theme.mobile}) {
-            font-size: 1.2rem;
+        @media (min-width: ${({ theme }) => theme.mobile}) {
+            font-size: 2rem;
             text-align: center;
-            // display: block;
-            margin-left: 70px
           }
+
+        @media (min-width: 850px) {
+            width: 90vw;
+        }
+
+        @media (max-width: 260px) {
+            font-size: 0.9rem;
+        }
       }
     `
