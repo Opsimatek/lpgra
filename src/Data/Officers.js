@@ -3,6 +3,7 @@ import MargaretJacoby from '../images/margaret_jacoby.jpg';
 import Fountain from '../images/fountain.jpg';
 import PeggyMarcone from '../images/peggy_marcone.jpg';
 import SharonHauser from '../images/sharon_hauser.JPG';
+import WaltSmiles from '../images/walt_smiles.jpg';
 
 const Officers = [
     {
@@ -53,7 +54,7 @@ const Officers = [
         phoneNumber: "474-370-2645",
         term: 2021,
         email: "wlsmiles@comcast.net",
-        photo: Fountain
+        photo: WaltSmiles
     }
 ]
 
