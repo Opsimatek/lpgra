@@ -29,6 +29,10 @@ export const GlobalStyles = createGlobalStyle`
         height: 100%;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     @media(min-width: ${({ theme }) => theme.mobile}) {
 
     }

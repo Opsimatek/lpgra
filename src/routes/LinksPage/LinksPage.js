@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { StyledLinks } from './LinksPage.style';
 import request from '../../images/request_form.pdf';
+import schedule from '../../images/2020_Meetings.pdf';
 
 export default class LinksPage extends Component {
     render() {
@@ -47,6 +48,9 @@ export default class LinksPage extends Component {
                     </li>
                     <li>
                         <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
+                    </li>
+                    <li>
+                        <a href={schedule} target="_blank" rel="noopener noreferrer">2020 Meeting Schedule</a>
                     </li>
                 </ul>
             </StyledLinks>
