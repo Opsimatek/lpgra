@@ -1,5 +1,6 @@
 {
   "name": "lpgra",
+  "homepage": "http://lpgra.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
