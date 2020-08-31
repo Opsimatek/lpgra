@@ -51,7 +51,7 @@ const Officers = [
         position: "Treasurer",
         name: "Walt Smiles",
         unit: 354,
-        phoneNumber: "474-370-2645",
+        phoneNumber: "574-370-2645",
         term: 2021,
         email: "wlsmiles@comcast.net",
         photo: WaltSmiles

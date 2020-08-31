@@ -14,6 +14,10 @@ export const StyledNav = styled.header`
     flex-direction: row;
     z-index: 99;
 
+    h1 > a {
+        color: ${({ theme }) => theme.primaryDark};
+    }
+
     @media (min-width: ${({ theme }) => theme.mobile}) {
         height: 110px;
     }
