@@ -21,8 +21,14 @@ export const StyledLandingPage = styled.div`
         box-shadow: 0px 2px 30px rgb(80, 80, 80);
     }
     
-    span {
+    p > span {
         font-weight: 650;
+    }
+
+    div > span {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
     }
 
     @media (max-width: ${({ theme }) => theme.mobile}) {

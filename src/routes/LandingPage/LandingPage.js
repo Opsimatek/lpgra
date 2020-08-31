@@ -15,6 +15,9 @@ export default class LandingPage extends Component {
                         Come join us! We meet the first Thursday of every month at 9:30am in the cardroom and we'd love to see you there. Feel free to bring any questions and concerns you may have.
                     </p>
                 </section>
+                <div>
+                    <span>Photo taken by Debi Faris</span>
+                </div>
             </StyledLandingPage>
         )
     }
