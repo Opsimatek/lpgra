@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledElections = styled.div`
-    padding: 100px 0;
+    padding: 120px 10px;
+    font-size: 1.2rem;
 `

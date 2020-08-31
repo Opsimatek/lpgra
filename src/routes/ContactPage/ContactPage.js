@@ -25,14 +25,14 @@ export default class ContactPage extends Component {
                
                 <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
 
-                <div>
-                    <p>
-                        If you'd like to contact the web developer you can 
-                        <a href="mailto:shanemcneil19@gmail.com?subject=I&nbsp;saw&nbsp;the&nbsp;LPGRA&nbsp;Website">
-                        here.
-                    </a>
-                    </p>
-                </div>
+                <h3>Web Developer:</h3>
+                <p>
+                    Shane McNeil
+                </p>
+                <p>Opsimatek Web Solutions</p>
+                <a href="mailto:shanemcneil19@gmail.com?subject=I&nbsp;saw&nbsp;the&nbsp;LPGRA&nbsp;Website">
+                    shanemcneil19@gmail.com
+                </a>
             </StyledContact>
         )
     }
