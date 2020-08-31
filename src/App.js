@@ -4,7 +4,7 @@ import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Nav } from './Components';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage, LinksPage, BylawsPage, MinutesListPage, BoardPage, ContactPage, MeetingPage, NewslettersListPage } from './routes';
+import { LandingPage, LinksPage, BylawsPage, MinutesListPage, BoardPage, ContactPage, MeetingPage, NewslettersListPage, ElectionsPage } from './routes';
 
 function App() {
   return (
@@ -50,6 +50,10 @@ function App() {
               <Route
                 path="/newsletters"
                 component={NewslettersListPage}
+              />
+              <Route
+                path="/elections"
+                component={ElectionsPage}
               />
             </Switch>
           </main>

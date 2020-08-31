@@ -8,7 +8,7 @@ const Burger = ({ open, setOpen }) => {
       <div />
       <div />
       <div>
-        <p>Menu</p>
+        <p>Menu<span>X</span></p>
       </div>
     </StyledBurger>
   )

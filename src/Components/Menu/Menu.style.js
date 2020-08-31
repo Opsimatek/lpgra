@@ -38,7 +38,8 @@ export const StyledMenu = styled.nav`
     }
 
     @media (max-height: 450px) {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      padding: 10px;
     }
 
     &:hover {

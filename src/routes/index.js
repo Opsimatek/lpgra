@@ -6,3 +6,4 @@ export { default as LinksPage } from './LinksPage';
 export { default as MinutesListPage } from './MinutesListPage';
 export { default as NewslettersListPage } from './NewslettersListPage';
 export { default as MeetingPage } from './MeetingPage';
+export { default as ElectionsPage } from './ElectionsPage';

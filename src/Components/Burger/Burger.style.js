@@ -31,4 +31,9 @@ export const StyledBurger = styled.button`
   p {
     margin-top: 5px;
   }
+  span {
+    color: #E4F4FB;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
 `;
