@@ -10,7 +10,7 @@ export default class ElectionsPage extends Component {
     render() {
         return (
             <StyledElections>
-                <h2>Information Regarding Las Palmas Grand Elections</h2>
+                <h2>Information Regarding LPGRA Elections</h2>
                 <a href={purpose} target="_blank" rel="noopener noreferrer">
                     Purpose of Elections
                 </a>
