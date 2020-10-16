@@ -5,6 +5,11 @@ import duties from '../../images/Board_Officer_Duties.pdf';
 import questionnaire from '../../images/Candidate_Questionnaire_2020.pdf';
 import committees from '../../images/COMMITTEES_AND_DUTIES.pdf';
 import notice from '../../images/Election_Meeting_Notice_2020.pdf';
+import absentee from '../../images/ABSENTEE_BALLOT.pdf';
+import mueller from '../../images/D_Mueller-Candidate_Questionnaire_2020.pdf';
+import marcone from '../../images/P_Marcone-Candidate_Questionnaire_2020.pdf';
+import williams from '../../images/P_Williams-Candidate_Questionnaire_2020.pdf';
+import smith from '../../images/S_Smith-Candidate_Questionnaire_2020.pdf';
 
 export default class ElectionsPage extends Component {
     render() {
@@ -26,6 +31,24 @@ export default class ElectionsPage extends Component {
                 <a href={committees} target="_blank" rel="noopener noreferrer">
                     Current Committees and Duties
                 </a>
+                <a href={absentee} target="_blank" rel="noopener noreferrer">
+                    2020 Absentee Ballot
+                </a>
+                <ul>
+                    <h2>Meet our 2020 Candidates</h2>
+                    <li><a href={mueller} target="_blank" rel="noopener noreferrer">
+                        Donna Mueller
+                    </a></li>
+                    <li><a href={marcone} target="_blank" rel="noopener noreferrer">
+                        Peggy Marcone
+                    </a></li>
+                    <li><a href={williams} target="_blank" rel="noopener noreferrer">
+                        Pam Williams
+                    </a></li>
+                    <li><a href={smith} target="_blank" rel="noopener noreferrer">
+                        Sue Smith
+                    </a></li>
+                </ul>
             </StyledElections>
         )
     }

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import Newsletters from '../../Data/Newsletters';
-import { StyledNewslettersList } from './NewslettersListPage.style'
+import NewslettersData from '../../Data/Newsletters';
+import { StyledNewslettersList } from './NewslettersListPage.style';
+import { Newsletter } from '../../Components';
 
 export default class NewslettersListPage extends Component {
     renderNewsletters() {
-        return !Newsletters.length
+        return !NewslettersData.length
             ? <p>Currently no newsletters available, please try back later.</p>
-            : Newsletters.reverse().map((datum) => <Newsletters
+            : NewslettersData.reverse().map((datum) => <Newsletter
                     key={datum.id}
-                    meeting={datum}
+                    newsletter={datum}
                 />
             )
     }

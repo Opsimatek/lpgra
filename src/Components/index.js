@@ -3,3 +3,4 @@ export { default as Menu } from './Menu';
 export { default as Minutes } from './Minutes';
 export { default as Nav } from './Nav';
 export { default as Officer } from './Officer';
+export { default as Newsletter } from './Newsletter';
