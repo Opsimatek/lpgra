@@ -9,7 +9,7 @@ const Menu = ({ open }) => {
                 Home
             </a>
             <a href="/newsletters">
-                Newletters
+                Newsletters
             </a>
             <a href="/minutes">
                 Meetings
