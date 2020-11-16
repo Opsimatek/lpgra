@@ -1,9 +1,8 @@
-import DaveEason from '../images/dave_eason.jpeg';
 import MargaretJacoby from '../images/margaret_jacoby.jpg';
-import Fountain from '../images/fountain.jpg';
 import PeggyMarcone from '../images/peggy_marcone.jpg';
-import SharonHauser from '../images/sharon_hauser.JPG';
 import WaltSmiles from '../images/walt_smiles.jpg';
+import SueSmith from '../images/Sue_Smith.jpg';
+import PamWilliams from '../images/Pam_Williams.jpg';
 
 const Officers = [
     {
@@ -19,32 +18,32 @@ const Officers = [
     {
         id: 2,
         position: "First Vice President",
-        name: "Dave Eason",
-        unit: 67,
-        phoneNumber: "480-584-9461",
-        term: 2020,
-        email: "daveeason@yahoo.com",
-        photo: DaveEason
+        name: "Peggy Marcone",
+        unit: 418,
+        phoneNumber: "585-752-8250",
+        term: 2022,
+        email: "pmarcone1511@gmail.com",
+        photo: PeggyMarcone
     },
     {
         id: 3,
         position: "Second Vice President",
-        name: "Sharon Hauser",
-        unit: 184,
-        phoneNumber: "913-645-0675",
-        term: 2020,
-        email: "shauser7533@gmail.com",
-        photo: SharonHauser
+        name: "Sue Smith",
+        unit: 110,
+        phoneNumber: "801-628-0025 ",
+        term: 2022,
+        email: "suesmithpc@yahoo.com",
+        photo: SueSmith
     },
     {
         id: 4,
         position: "Secretary",
-        name: "Peggy Marcone",
-        unit: 418,
-        phoneNumber: "585-752-8279",
-        term: 2020,
-        email: "pmarcone1511@gmail.com",
-        photo: PeggyMarcone
+        name: "Pam Williams",
+        unit: 429,
+        phoneNumber: "559-259-2559",
+        term: 2022,
+        email: "429lpg@gmail.com",
+        photo: PamWilliams
     },
     {
         id: 5,

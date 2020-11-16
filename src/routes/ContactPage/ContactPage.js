@@ -19,8 +19,8 @@ export default class ContactPage extends Component {
                 <h3>
                     Email:
                 </h3>
-                <a href="mailto:lpgraboard9@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
-                    lpgraboard@gmail.com 
+                <a href="mailto:LPGRABoard@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
+                    LPGRABoard@gmail.com 
                 </a>
                
                 <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>

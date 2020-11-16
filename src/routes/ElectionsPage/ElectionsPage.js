@@ -19,9 +19,9 @@ export default class ElectionsPage extends Component {
                 <a href={purpose} target="_blank" rel="noopener noreferrer">
                     Purpose of Elections
                 </a>
-                <a href={notice} target="_blank" rel="noopener noreferrer">
+                {/* <a href={notice} target="_blank" rel="noopener noreferrer">
                     Notice of Upcoming Election
-                </a>
+                </a> */}
                 <a href={questionnaire} target="_blank" rel="noopener noreferrer">
                     Questionnaire for Potential Candidates
                 </a>
@@ -31,10 +31,10 @@ export default class ElectionsPage extends Component {
                 <a href={committees} target="_blank" rel="noopener noreferrer">
                     Current Committees and Duties
                 </a>
-                <a href={absentee} target="_blank" rel="noopener noreferrer">
+                {/* <a href={absentee} target="_blank" rel="noopener noreferrer">
                     2020 Absentee Ballot
-                </a>
-                <ul>
+                </a> */}
+                {/* <ul>
                     <h2>Meet our 2020 Candidates</h2>
                     <li><a href={mueller} target="_blank" rel="noopener noreferrer">
                         Donna Mueller
@@ -48,7 +48,7 @@ export default class ElectionsPage extends Component {
                     <li><a href={smith} target="_blank" rel="noopener noreferrer">
                         Sue Smith
                     </a></li>
-                </ul>
+                </ul> */}
             </StyledElections>
         )
     }
