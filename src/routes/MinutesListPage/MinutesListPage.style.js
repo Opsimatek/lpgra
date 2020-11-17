@@ -6,4 +6,8 @@ export const StyledMinutesList = styled.ul`
     a:first-of-type {
         font-size: 1.7rem;
     }
+
+    a {
+        display: block;
+    }
 `
