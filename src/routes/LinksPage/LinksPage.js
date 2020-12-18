@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { StyledLinks } from './LinksPage.style';
 import request from '../../images/request_form.pdf';
 import schedule from '../../images/2021_Meetings.pdf';
+import storySubmission from '../../images/Submit_Story_Form.pdf';
 
 export default class LinksPage extends Component {
     render() {
@@ -51,6 +52,9 @@ export default class LinksPage extends Component {
                     </li>
                     <li>
                         <a href={schedule} target="_blank" rel="noopener noreferrer">2021 Meeting Schedule</a>
+                    </li>
+                    <li>
+                        <a href={storySubmission} target="_blank" rel="noopener noreferrer">Newsletter Story Submission Form</a>
                     </li>
                 </ul>
             </StyledLinks>

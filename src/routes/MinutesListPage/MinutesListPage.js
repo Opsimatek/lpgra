@@ -6,6 +6,7 @@ import { Minutes } from '../../Components';
 import { StyledMinutesList } from './MinutesListPage.style';
 import october2020Minutes from '../../images/LPGRA_Minutes_of_Meeting_Oct_1_2020.pdf';
 import november2020Minutes from '../../images/LPGRA_Minutes_November_5_2020.pdf';
+import december2020Minutes from '../../images/LPGRA_Minutes_December_3_2020.pdf';
 
 export default class MinutesListPage extends Component {
     renderMinutes() {
@@ -23,6 +24,7 @@ export default class MinutesListPage extends Component {
             <StyledMinutesList>
                 <a href={schedule}>Click here for 2021 Meeting Schedule</a>
                 <h2>Meetings Minutes List</h2>
+                <a href={december2020Minutes} target="_blank" rel="noopener noreferrer">December 2020</a>
                 <a href={november2020Minutes} target="_blank" rel="noopener noreferrer">November 2020</a>
                 <a href={october2020Minutes} target="_blank" rel="noopener noreferrer">October 2020</a>
                 {this.renderMinutes()}
