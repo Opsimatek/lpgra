@@ -25,6 +25,13 @@ export default class ContactPage extends Component {
                
                 <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
 
+                <h3>
+                    Neighborhood Watch:
+                </h3>
+                <a href="mailto:lpgnwp@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
+                    lpgnwp@gmail.com
+                </a>
+
                 <h3>Web Developer:</h3>
                 <p>
                     Shane McNeil
