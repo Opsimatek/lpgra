@@ -3,6 +3,7 @@ import october2020Minutes from '../images/LPGRA_Minutes_of_Meeting_Oct_1_2020.pd
 import november2020Minutes from '../images/LPGRA_Minutes_November_5_2020.pdf';
 import december2020Minutes from '../images/LPGRA_Minutes_December_3_2020.pdf';
 import february2021Minutes from '../images/LPGRA_Minutes_February_4_2021.pdf';
+import march2021Minutes from '../images/LPGRA_Minutes_March_4_2021.pdf';
 
 const MinutesPDFData = [
     {
@@ -24,6 +25,11 @@ const MinutesPDFData = [
         id: '02-2021',
         path: february2021Minutes,
         date: 'February 2021'
+    },
+    {
+        id: '03-2021',
+        path: march2021Minutes,
+        date: 'March 2021'
     }
 ]
 

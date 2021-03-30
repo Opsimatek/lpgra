@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import photo from '../../images/fountain.jpg';
 import { StyledLandingPage } from './LandingPage.style';
 
 export default class LandingPage extends Component {
