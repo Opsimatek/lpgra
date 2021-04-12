@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NeighborhoodWatchData from '../../Data/NeighborhoodWatchData';
+import StyledNeighboorhoodWatchList from './NeighborhoodWatchPage.style';
 
 export default class NeighborhoodWatchPage extends Component {
     renderNWData() {
@@ -14,9 +15,9 @@ export default class NeighborhoodWatchPage extends Component {
 
     render() {
         return (
-            <ul>
+            <StyledNeighboorhoodWatchList>
                 {this.renderNWData()}
-            </ul>
+            </StyledNeighboorhoodWatchList>
         )
     }
 }
