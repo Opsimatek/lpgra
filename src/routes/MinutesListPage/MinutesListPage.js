@@ -9,7 +9,7 @@ import MinutesPDFData from '../../Data/MinutesPDFData';
 export default class MinutesListPage extends Component {
     renderMinutes() {
         return !MinutesData.length
-            ? <p>Currently no meeting minutes available, Please try back later.</p>
+            ? <p>Currently no meeting minutes available. Please try back later.</p>
             : MinutesData.reverse().map((datum) => <Minutes
                     key={datum.id}
                     meeting={datum}

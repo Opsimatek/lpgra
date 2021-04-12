@@ -20,6 +20,9 @@ const Menu = ({ open }) => {
             <a href="/board">
                 Meet The Board
             </a>
+            <a href="/neighborhoodWatch">
+                Neighborhood Watch
+            </a>
             <a href="/links">
                 Informational Links
             </a>
