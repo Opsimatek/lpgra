@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NeighborhoodWatchData from '../../Data/NeighborhoodWatchData';
-import StyledNeighboorhoodWatchList from './NeighborhoodWatchPage.style';
+import { StyledNeighboorhoodWatchList } from './NeighborhoodWatchPage.style';
 
 export default class NeighborhoodWatchPage extends Component {
     renderNWData() {
