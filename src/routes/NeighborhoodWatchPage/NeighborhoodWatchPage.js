@@ -16,6 +16,7 @@ export default class NeighborhoodWatchPage extends Component {
     render() {
         return (
             <StyledNeighboorhoodWatchList>
+                <h2>Neighborhood Watch Program</h2>
                 {this.renderNWData()}
             </StyledNeighboorhoodWatchList>
         )

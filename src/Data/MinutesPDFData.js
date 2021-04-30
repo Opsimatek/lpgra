@@ -4,6 +4,7 @@ import november2020Minutes from '../images/LPGRA_Minutes_November_5_2020.pdf';
 import december2020Minutes from '../images/LPGRA_Minutes_December_3_2020.pdf';
 import february2021Minutes from '../images/LPGRA_Minutes_February_4_2021.pdf';
 import march2021Minutes from '../images/LPGRA_Minutes_March_4_2021.pdf';
+import april2021Minutes from '../images/LPGRA_Minutes_April_1_2021.pdf';
 
 const MinutesPDFData = [
     {
@@ -30,6 +31,11 @@ const MinutesPDFData = [
         id: '03-2021',
         path: march2021Minutes,
         date: 'March 2021'
+    },
+    {
+        id: '04-2021',
+        path: april2021Minutes,
+        date: 'April 2021'
     }
 ]
 
