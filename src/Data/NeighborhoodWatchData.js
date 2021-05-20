@@ -1,6 +1,7 @@
 import March10Minutes from '../images/NWP_Minutes_3_10_2021.pdf';
 import March30Minutes from '../images/NWP_Minutes_3_30_2021.pdf';
 import WebResources from '../images/NWP_Web_Resources.pdf';
+import April13Minutes from '../images/NWP_Minutes_4_13_2021.pdf';
 
 const NeighborhoodWatchData = [
     {
@@ -17,6 +18,11 @@ const NeighborhoodWatchData = [
         id: '3',
         title: 'Minutes from March 30, 2021 Meeting',
         path: March30Minutes
+    },
+    {
+        id: '4',
+        title: 'Minutes from April 13, 2021 Meeting',
+        path: April13Minutes
     }
 ]
 
