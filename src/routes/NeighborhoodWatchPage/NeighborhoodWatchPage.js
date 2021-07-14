@@ -19,7 +19,7 @@ export default class NeighborhoodWatchPage extends Component {
                 <h2>Neighborhood Watch Program</h2>
                 {this.renderNWData(NeighborhoodWatchData)}
                 <h2>Neighborhood Watch Meeting Minutes</h2>
-                {this.renderNWData(NeighborhoodWatchMinutesData)}
+                {this.renderNWData(NeighborhoodWatchMinutesData.reverse())}
             </StyledNeighboorhoodWatchList>
         )
     }
