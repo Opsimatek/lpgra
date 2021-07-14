@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import NeighborhoodWatchData from '../../Data/NeighborhoodWatchData';
+import { NeighborhoodWatchData, NeighborhoodWatchMinutesData } from '../../Data/NeighborhoodWatchData';
 import { StyledNeighboorhoodWatchList } from './NeighborhoodWatchPage.style';
 
 export default class NeighborhoodWatchPage extends Component {
-    renderNWData() {
-        return !NeighborhoodWatchData.length
+    renderNWData(dataArray) {
+        return !dataArray.length
             ? <p>Currently no neighborhood watch info available. Please try back later.</p>
-            : NeighborhoodWatchData.map((datum) => <li>
+            : dataArray.map((datum) => <li>
                 <a href={datum.path} target= '_blank' rel="noopener noreferrer">
                     {datum.title}
                 </a>
@@ -17,7 +17,9 @@ export default class NeighborhoodWatchPage extends Component {
         return (
             <StyledNeighboorhoodWatchList>
                 <h2>Neighborhood Watch Program</h2>
-                {this.renderNWData()}
+                {this.renderNWData(NeighborhoodWatchData)}
+                <h2>Neighborhood Watch Meeting Minutes</h2>
+                {this.renderNWData(NeighborhoodWatchMinutesData)}
             </StyledNeighboorhoodWatchList>
         )
     }
