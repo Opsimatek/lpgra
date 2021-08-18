@@ -7,6 +7,11 @@ import CaptainsGuide from '../images/Neighborhood_Block_Captains_Guide.pdf';
 import MesaPDGuide from '../images/NeighborhoodPacket_Mesa_Police.pdf';
 import WatchObjectives from '../images/NW_Objectives.pdf';
 import CaretakerChecklist from '../images/Caretaker_Checklist.pdf';
+import CommunicationTree from '../images/Communication_Tree.pdf';
+import ProgramSummary from '../images/NW_Program_and_Street_Captain_Summary.pdf';
+import IntroLetter from '../images/Street_Captain_Intro_Letter.pdf';
+import SectionResidentList from '../images/Section_Resident_List.pdf';
+import SuspiciousActivityChart from '../images/Suspicious_Activity_Chart.pdf';
 
 // Meeting Minutes
 import March10Minutes from '../images/NWP_Minutes_3_10_2021.pdf';
@@ -14,6 +19,7 @@ import March30Minutes from '../images/NWP_Minutes_3_30_2021.pdf';
 import April13Minutes from '../images/NWP_Minutes_4_13_2021.pdf';
 import May11Minutes from '../images/NWP_Minutes_5_11_2021.pdf';
 import June10Minutes from '../images/NWP_Minutes_6_10_2021.pdf';
+import July13Minutes from '../images/NWP_Minutes_7_13_2021.pdf';
 
 const NeighborhoodWatchData = [
     {
@@ -55,6 +61,31 @@ const NeighborhoodWatchData = [
         id: '8',
         title: `Caretaker Checklist`,
         path: CaretakerChecklist
+    },
+    {
+        id: '9',
+        title: `Communication Tree`,
+        path: CommunicationTree
+    },
+    {
+        id: '10',
+        title: `Neighborhood Watch Program and Captain Summary`,
+        path: ProgramSummary
+    },
+    {
+        id: '11',
+        title: `Street Captain Intro Letter`,
+        path: IntroLetter
+    },
+    {
+        id: '12',
+        title: `Section Resident List`,
+        path: SectionResidentList
+    },
+    {
+        id: '13',
+        title: `What is Suspicious Activity?`,
+        path: SuspiciousActivityChart
     }
 ]
 
@@ -84,7 +115,11 @@ const NeighborhoodWatchMinutesData = [
         title: 'Minutes from June 10, 2021 Meeting',
         path: June10Minutes
     },
-
+    {
+        id: '6',
+        title: 'Minutes from July 13, 2021 Meeting',
+        path: July13Minutes
+    }
 ]
 
 export { NeighborhoodWatchData, NeighborhoodWatchMinutesData };
