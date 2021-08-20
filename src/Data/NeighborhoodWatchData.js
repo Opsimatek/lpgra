@@ -12,6 +12,7 @@ import ProgramSummary from '../images/NW_Program_and_Street_Captain_Summary.pdf'
 import IntroLetter from '../images/Street_Captain_Intro_Letter.pdf';
 import SectionResidentList from '../images/Section_Resident_List.pdf';
 import SuspiciousActivityChart from '../images/Suspicious_Activity_Chart.pdf';
+import AttendanceSheet from '../images/NW_Attendance_Sheet.pdf';
 
 // Meeting Minutes
 import March10Minutes from '../images/NWP_Minutes_3_10_2021.pdf';
@@ -86,6 +87,11 @@ const NeighborhoodWatchData = [
         id: '13',
         title: `What is Suspicious Activity?`,
         path: SuspiciousActivityChart
+    },
+    {
+        id: '14',
+        title: `Neighborhood Watch Attendance Sheet`,
+        path: AttendanceSheet
     }
 ]
 
