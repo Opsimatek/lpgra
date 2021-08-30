@@ -2,10 +2,8 @@
 import WebResources from '../images/NWP_Web_Resources.pdf';
 import SectionList from '../images/LPG_Neighborhood_Watch_Section_List.pdf';
 import SiteMap from '../images/LP_NW_Map.pdf';
-import CaptainDuties from '../images/LPGNWP_Street_Captain_Duties.pdf';
 import CaptainsGuide from '../images/Neighborhood_Block_Captains_Guide.pdf';
 import MesaPDGuide from '../images/NeighborhoodPacket_Mesa_Police.pdf';
-import WatchObjectives from '../images/NW_Objectives.pdf';
 import CaretakerChecklist from '../images/Caretaker_Checklist.pdf';
 import CommunicationTree from '../images/Communication_Tree.pdf';
 import ProgramSummary from '../images/NW_Program_and_Street_Captain_Summary.pdf';
@@ -40,56 +38,46 @@ const NeighborhoodWatchData = [
     },
     {
         id: '4',
-        title: 'LPG Neighborhood Watch Duties',
-        path: CaptainDuties
-    },
-    {
-        id: '5',
-        title: `LPG Neighborhood Watch Captain's Guide`,
+        title: `Mesa Police Neighborhood Block Captain's Guide`,
         path: CaptainsGuide
     },
     {
-        id: '6',
+        id: '5',
         title: `Mesa PD Neighborhood Watch Guide`,
         path: MesaPDGuide
     },
     {
-        id: '7',
-        title: `LPG Neighborhood Watch Objectives`,
-        path: WatchObjectives
-    },
-    {
-        id: '8',
+        id: '6',
         title: `Caretaker Checklist`,
         path: CaretakerChecklist
     },
     {
-        id: '9',
+        id: '7',
         title: `Communication Tree`,
         path: CommunicationTree
     },
     {
-        id: '10',
+        id: '8',
         title: `Neighborhood Watch Program and Captain Summary`,
         path: ProgramSummary
     },
     {
-        id: '11',
+        id: '9',
         title: `Street Captain Intro Letter`,
         path: IntroLetter
     },
     {
-        id: '12',
+        id: '10',
         title: `Section Resident List`,
         path: SectionResidentList
     },
     {
-        id: '13',
+        id: '11',
         title: `What is Suspicious Activity?`,
         path: SuspiciousActivityChart
     },
     {
-        id: '14',
+        id: '12',
         title: `Neighborhood Watch Attendance Sheet`,
         path: AttendanceSheet
     }
