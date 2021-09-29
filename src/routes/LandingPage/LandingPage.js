@@ -11,7 +11,7 @@ export default class LandingPage extends Component {
                     </p>
                     
                     <p>
-                        Come join us! We meet the first Thursday of every month at 9:30am in the cardroom and we'd love to see you there. Feel free to bring any questions and concerns you may have.
+                        Come join us! We meet the first Thursday of every month at 9:30am in the clubhouse and we'd love to see you there. Feel free to bring any questions and concerns you may have.
                     </p>
                 </section>
                 <div>
