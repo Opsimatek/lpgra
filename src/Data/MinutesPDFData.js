@@ -10,6 +10,7 @@ import june2021Minutes from '../images/LPGRA_Minutes_June_3_2021.pdf';
 import july2021Minutes from '../images/LPGRA_Minutes_July_1_2021.pdf';
 import august2021Minutes from '../images/LPGRA_Minutes_August_5_2021.pdf';
 import september2021Minutes from '../images/LPGRA_Minutes_Sept_2_2021.pdf';
+import october2021Minutes from '../images/LPGRA_Minutes_October_7_2021.pdf';
 
 const MinutesPDFData = [
     {
@@ -66,6 +67,11 @@ const MinutesPDFData = [
         id: '09-2021',
         path: september2021Minutes,
         date: 'September 2021'
+    },
+    {
+        id: '10-2021',
+        path: october2021Minutes,
+        date: 'October 2021'
     }
 ]
 
