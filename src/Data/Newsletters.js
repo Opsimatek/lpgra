@@ -4,6 +4,7 @@ import neighborhoodWatch from '../images/LPGNWP_2021.pdf';
 import firstQuarter2021 from '../images/Newsletter_February_2021.pdf';
 import secondQuarter2021 from '../images/Newsletter_May_2021.pdf';
 import thirdQuarter2021 from '../images/Newsletter_August_2021.pdf';
+import fourthQuarter2021 from '../images/Newsletter_November_2021.pdf';
 
 const Newsletters = [
     {
@@ -35,6 +36,11 @@ const Newsletters = [
         id: 'thirdQuarter2021',
         path: thirdQuarter2021,
         name: '3rd Quarter 2021 Newsletter'
+    },
+    {
+        id: 'fourthQuarter2021',
+        path: fourthQuarter2021,
+        name: '4th Quarter 2021 Newsletter'
     }
 ];
 

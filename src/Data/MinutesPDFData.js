@@ -11,6 +11,8 @@ import july2021Minutes from '../images/LPGRA_Minutes_July_1_2021.pdf';
 import august2021Minutes from '../images/LPGRA_Minutes_August_5_2021.pdf';
 import september2021Minutes from '../images/LPGRA_Minutes_Sept_2_2021.pdf';
 import october2021Minutes from '../images/LPGRA_Minutes_October_7_2021.pdf';
+import november2021MinutesSuppMap from '../images/Stop_Bars.pdf';
+import november2021Minutes from '../images/LPGRA_Minutes_November_4_2021.pdf';
 
 const MinutesPDFData = [
     {
@@ -72,6 +74,16 @@ const MinutesPDFData = [
         id: '10-2021',
         path: october2021Minutes,
         date: 'October 2021'
+    },
+    {
+        id: '11-2021-a',
+        path: november2021MinutesSuppMap,
+        date: 'November 2021 - Supplemental Map'
+    },
+    {
+        id: '11-2021',
+        path: november2021Minutes,
+        date: 'November 2021'
     }
 ]
 
