@@ -1,6 +1,4 @@
-import MargaretJacoby from '../images/margaret_jacoby.jpg';
 import PeggyMarcone from '../images/peggy_marcone.jpg';
-import WaltSmiles from '../images/walt_smiles.jpg';
 import SueSmith from '../images/Sue_Smith.jpg';
 import PamWilliams from '../images/Pam_Williams.jpg';
 import DonnaMueller from '../images/Donna_Mueller.jpg';
@@ -12,7 +10,7 @@ const Officers = [
         position: "President",
         name: "Peggy Marcone",
         unit: 418,
-        phoneNumber: "585-752-8250",
+        phoneNumber: "585-752-8279",
         term: 2022,
         email: "pmarcone1511@gmail.com",
         photo: PeggyMarcone
