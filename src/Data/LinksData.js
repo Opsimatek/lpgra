@@ -1,11 +1,16 @@
 
 import request from '../images/request_form.pdf';
-import schedule from '../images/2021_Meetings.pdf';
+import schedule from '../images/2022_Meetings.pdf';
 import storySubmission from '../images/Submit_Story_Form.pdf';
 import approvedPlants from '../images/Approved_Plants.pdf';
 import modRequest from '../images/ARB_Modification_Request.pdf';
 
 const LinksData = [
+    {
+        id: 18,
+        path: schedule,
+        name: "2022 Meeting Schedule"
+    },
     {
         id: 1,
         path: "http://aamho.org/",
@@ -65,11 +70,6 @@ const LinksData = [
         id: 12,
         path: request,
         name: "Request/ Comment/ Compliment Form"
-    },
-    {
-        id: 13,
-        path: schedule,
-        name: "2021 Meeting Schedule"
     },
     {
         id: 14,

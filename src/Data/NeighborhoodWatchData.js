@@ -19,7 +19,10 @@ import April13Minutes from '../images/NWP_Minutes_4_13_2021.pdf';
 import May11Minutes from '../images/NWP_Minutes_5_11_2021.pdf';
 import June10Minutes from '../images/NWP_Minutes_6_10_2021.pdf';
 import July13Minutes from '../images/NWP_Minutes_7_13_2021.pdf';
-import August10Minutes from '../images/NWP_Minutes_08_10_21.pdf';
+import August10Minutes from '../images/NWP_Minutes_8_10_2021.pdf';
+import November09Minutes from '../images/NWP_Minutes_11_09_2021.pdf';
+import December14Minutes from '../images/NWP_Minutes_12_14_2021.pdf';
+import January11Minutes from '../images/NWP_Minutes_1_11_2022.pdf';
 
 const NeighborhoodWatchData = [
     {
@@ -119,6 +122,21 @@ const NeighborhoodWatchMinutesData = [
         id: '7',
         title: 'Minutes from August 10, 2021 Meeting',
         path: August10Minutes
+    },
+    {
+        id: '8',
+        title: 'Minutes from November 09, 2021 Meeting',
+        path: November09Minutes
+    },
+    {
+        id: '9',
+        title: 'Minutes from December 14, 2021 Meeting',
+        path: December14Minutes
+    },
+    {
+        id: '10',
+        title: 'Minutes from January 11, 2022 Meeting',
+        path: January11Minutes
     }
 ]
 
