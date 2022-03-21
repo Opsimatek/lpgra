@@ -26,6 +26,9 @@ const Menu = ({ open }) => {
             <a href="/links">
                 Informational Links
             </a>
+            <a href="/requestForm">
+                Request Form
+            </a>
             <a href="/contact">
                 Contact
             </a>

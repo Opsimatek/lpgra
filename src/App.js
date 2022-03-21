@@ -4,7 +4,18 @@ import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Nav } from './Components';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage, LinksPage, BylawsPage, MinutesListPage, BoardPage, ContactPage, MeetingPage, NewslettersListPage, ElectionsPage, NeighborhoodWatchPage } from './routes';
+import { 
+  LandingPage, 
+  LinksPage, 
+  BylawsPage, 
+  MinutesListPage, 
+  BoardPage, 
+  ContactPage, 
+  MeetingPage, 
+  NewslettersListPage, 
+  ElectionsPage, 
+  NeighborhoodWatchPage, 
+  RequestFormPage } from './routes';
 
 function App() {
   return (
@@ -58,6 +69,10 @@ function App() {
               <Route
                 path="/neighborhoodWatch"
                 component={NeighborhoodWatchPage}
+              />
+              <Route
+                path="/requestForm"
+                component={RequestFormPage}
               />
             </Switch>
           </main>

@@ -8,3 +8,4 @@ export { default as NewslettersListPage } from './NewslettersListPage';
 export { default as MeetingPage } from './MeetingPage';
 export { default as ElectionsPage } from './ElectionsPage';
 export { default as NeighborhoodWatchPage } from './NeighborhoodWatchPage';
+export { default as RequestFormPage } from './RequestFormPage';
