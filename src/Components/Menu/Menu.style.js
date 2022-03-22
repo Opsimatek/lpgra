@@ -8,7 +8,8 @@ export const StyledMenu = styled.nav`
   transform: ${({ open }) => open ? 'translate(0)' : 'translate(-100%)'};
   height: 100vh;
   text-align: left;
-  padding: 2rem;
+  padding: 1.5rem;
+  padding-top: 80px;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,11 +20,11 @@ export const StyledMenu = styled.nav`
   }
 
   @media (max-height: 450px) {
-    padding-top: 85px;
+    padding-top: 60px;
   }
 
   a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: bold;
@@ -39,7 +40,7 @@ export const StyledMenu = styled.nav`
 
     @media (max-height: 450px) {
       font-size: 1rem;
-      padding: 10px;
+      padding: 5px;
     }
 
     &:hover {
@@ -47,5 +48,8 @@ export const StyledMenu = styled.nav`
     }
   }
 
+  span {
+    display: block;
+  }
 
 `;
