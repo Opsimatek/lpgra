@@ -5,7 +5,7 @@ export default class RequestFormPage extends Component {
     render() {
         return (
             <StyledRequestForm>
-                <form action="https://formsubmit.co/0ffa26a510b5169910cf8dd8dc652839" method="POST">
+                <form action="https://formspree.io/f/xoqrneqr" method="POST">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" placeholder="Jane Doe" required />
                     <br />
@@ -13,7 +13,7 @@ export default class RequestFormPage extends Component {
                     <input type="number" id="space" name="space number" placeholder="000" required />
                     <br />
                     <label for="phone">Telephone Number</label>
-                    <input type="tel" id="phone" name="phone number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                    <input type="tel" id="phone" name="phone number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
                     <br />
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" placeholder="ILoveLasPalmas@Grand.com" required />
