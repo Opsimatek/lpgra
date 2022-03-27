@@ -5,7 +5,7 @@ export default class RequestFormPage extends Component {
     render() {
         return (
             <StyledRequestForm>
-                <form action="https://formsubmit.co/LPGRABoard@gmail.com" method="POST">
+                <form action="https://formsubmit.co/0ffa26a510b5169910cf8dd8dc652839" method="POST">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" placeholder="Jane Doe" required />
                     <br />
