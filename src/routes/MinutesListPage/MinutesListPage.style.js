@@ -10,4 +10,8 @@ export const StyledMinutesList = styled.ul`
     a {
         display: block;
     }
+
+    #schedule {
+        color: #af0808
+    }
 `

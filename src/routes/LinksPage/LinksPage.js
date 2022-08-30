@@ -23,9 +23,9 @@ export default class LinksPage extends Component {
             <StyledLinks>
                 <h2>Informational Links</h2>
                 <ul>
-                    <li>
+                    {/* <li>
                         <Link to="/bylaws">LPGRA Bylaws</Link>
-                    </li>
+                    </li> */}
                     {this.renderLinks()}
                 </ul>
             </StyledLinks>

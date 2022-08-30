@@ -12,7 +12,7 @@ const Menu = ({ open }) => {
                 Newsletters
             </a>
             <a href="/minutes">
-                Meetings
+                Meeting Schedule & Minutes
             </a>
             <a href="/elections">
                 Elections
