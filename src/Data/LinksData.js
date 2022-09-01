@@ -4,15 +4,17 @@ import request from '../images/request_form.pdf';
 // import storySubmission from '../images/Submit_Story_Form.pdf';
 import approvedPlants from '../images/Approved_Plants.pdf';
 import modRequest from '../images/ARB_Modification_Request.pdf';
-import bylaws from '../images/LPGRA_BYLAWS.pdf';
+// import bylaws from '../images/LPGRA_BYLAWS.pdf';
 import rules from '../images/Rules_And_Regs.pdf';
+import accomplishments2020 from '../images/LPGRA_2019-2020_Accomplishments.pdf';
+import accomplishments2021 from '../images/LPGRA_2020-2021_Accomplishments.jpg';
 
 const LinksData = [
-    {
-        id: 19,
-        path: bylaws,
-        name: "LPGRA Bylaws"
-    },
+    // {
+    //     id: 19,
+    //     path: bylaws,
+    //     name: "LPGRA Bylaws"
+    // },
     {
         id: 20,
         path: rules,
@@ -102,6 +104,16 @@ const LinksData = [
         id: 17,
         path: "https://www.testing.com/medicare-covered-preventative-screenings-resource/",
         name: "Medicare Covered Testing"
+    },
+    {
+        id: '2019-2020',
+        path: accomplishments2020,
+        name: '2019-2020 Accomplishments'
+    },
+    {
+        id: '2020-2021',
+        path: accomplishments2021,
+        name: '2020-2021 Accomplishments'
     }
 ]
 

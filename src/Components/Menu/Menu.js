@@ -1,12 +1,19 @@
 import React from 'react';
 import { bool } from 'prop-types';
 import { StyledMenu } from './Menu.style';
+import bylaws from '../../images/LPGRA_BYLAWS.pdf';
 
 const Menu = ({ open }) => {
     return (
         <StyledMenu open={open}>
             <a href="/">
                 Home
+            </a>
+            <a 
+                href={bylaws}
+                target='_blank' 
+                rel='noopener noreferrer'>
+                LPGRA Bylaws
             </a>
             <a href="/newsletters">
                 Newsletters
@@ -24,7 +31,7 @@ const Menu = ({ open }) => {
                 Neighborhood Watch
             </a>
             <a href="/links">
-                Informational Links
+                Additional Information
             </a>
             <a href="/requestForm">
                 <span>Request/Concern/</span><span>Compliment Form</span>

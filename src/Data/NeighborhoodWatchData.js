@@ -5,12 +5,12 @@
 import CaptainsGuide from '../images/Neighborhood_Block_Captains_Guide.pdf';
 import MesaPDGuide from '../images/NeighborhoodPacket_Mesa_Police.pdf';
 // import CaretakerChecklist from '../images/Caretaker_Checklist.pdf';
-import CommunicationTree from '../images/Communication_Tree.pdf';
+// import CommunicationTree from '../images/Communication_Tree.pdf';
 // import ProgramSummary from '../images/NW_Program_and_Street_Captain_Summary.pdf';
 // import IntroLetter from '../images/Street_Captain_Intro_Letter.pdf';
 // import SectionResidentList from '../images/Section_Resident_List.pdf';
 // import SuspiciousActivityChart from '../images/Suspicious_Activity_Chart.pdf';
-import AttendanceSheet from '../images/NW_Attendance_Sheet.pdf';
+// import AttendanceSheet from '../images/NW_Attendance_Sheet.pdf';
 
 // Meeting Minutes
 // import March10Minutes from '../images/NWP_Minutes_3_10_2021.pdf';
@@ -55,11 +55,11 @@ const NeighborhoodWatchData = [
     //     title: `Caretaker Checklist`,
     //     path: CaretakerChecklist
     // },
-    {
-        id: '7',
-        title: `Communication Tree`,
-        path: CommunicationTree
-    },
+    // {
+    //     id: '7',
+    //     title: `Communication Tree`,
+    //     path: CommunicationTree
+    // },
     // {
     //     id: '8',
     //     title: `Neighborhood Watch Program and Captain Summary`,
@@ -80,11 +80,11 @@ const NeighborhoodWatchData = [
     //     title: `What is Suspicious Activity?`,
     //     path: SuspiciousActivityChart
     // },
-    {
-        id: '12',
-        title: `Neighborhood Watch Attendance Sheet`,
-        path: AttendanceSheet
-    }
+    // {
+    //     id: '12',
+    //     title: `Neighborhood Watch Attendance Sheet`,
+    //     path: AttendanceSheet
+    // }
 ]
 
 // const NeighborhoodWatchMinutesData = [
