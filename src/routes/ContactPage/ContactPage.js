@@ -28,8 +28,8 @@ export default class ContactPage extends Component {
                 <h3>
                     Neighborhood Watch:
                 </h3>
-                <a href="mailto:lpgnwp@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
-                    lpgnwp@gmail.com
+                <a href="mailto:lpgrnw@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
+                    lpgrnw@gmail.com
                 </a>
 
                 <h3>Web Developer:</h3>
