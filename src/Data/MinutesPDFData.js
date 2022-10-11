@@ -22,6 +22,7 @@ import may2022Minutes from '../images/LPGRA_Minutes_May_5_2022.pdf';
 import june2022Minutes from '../images/LPGRA_Minutes_June_2_2022.pdf';
 import july2022Minutes from '../images/LPGRA_Minutes_July_7_2022.pdf';
 import august2022Minutes from '../images/LPGRA_Minutes_August_4_2022.pdf';
+import september2022Minutes from '../images/LPGRA_Minutes_Sept_1_2022.pdf';
 
 const MinutesPDFData = [
     {
@@ -138,6 +139,11 @@ const MinutesPDFData = [
         id: '08-2022',
         path: august2022Minutes,
         date: 'August 2022'
+    },
+    {
+        id: '09-2022',
+        path: september2022Minutes,
+        date: 'September 2022'
     }
 ]
 
