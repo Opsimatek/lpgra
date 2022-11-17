@@ -1,30 +1,18 @@
 
 import request from '../images/request_form.pdf';
-// import schedule from '../images/2022_2023_Meetings.pdf';
-// import storySubmission from '../images/Submit_Story_Form.pdf';
 import approvedPlants from '../images/Approved_Plants.pdf';
 import modRequest from '../images/ARB_Modification_Request.pdf';
-// import bylaws from '../images/LPGRA_BYLAWS.pdf';
 import rules from '../images/Rules_And_Regs.pdf';
 import accomplishments2020 from '../images/LPGRA_2019-2020_Accomplishments.pdf';
 import accomplishments2021 from '../images/LPGRA_2020-2021_Accomplishments.jpg';
+import accomplishments2022 from '../images/2022_Accomplishments.jpg';
 
 const LinksData = [
-    // {
-    //     id: 19,
-    //     path: bylaws,
-    //     name: "LPGRA Bylaws"
-    // },
     {
         id: 20,
         path: rules,
         name: "Draft Rules & Regulations"
     },
-    // {
-    //     id: 18,
-    //     path: schedule,
-    //     name: "2022-2023 Meeting Schedule"
-    // },
     {
         id: 1,
         path: "http://aamho.org/",
@@ -50,11 +38,6 @@ const LinksData = [
         path: "https://www.wunderground.com/?query=85209",
         name: "Local Weather"
     },
-    // {
-    //     id: 6,
-    //     path: "https://www.fsl.org/",
-    //     name: "The Foundation of Senior Living"
-    // },
     {
         id: 7,
         path: "https://www.va.gov/",
@@ -65,31 +48,11 @@ const LinksData = [
         path: "https://www.mesaaz.gov/",
         name: "City of Mesa"
     },
-    // {
-    //     id: 9,
-    //     path: "https://www.heart.org/",
-    //     name: "American Heart Association"
-    // },
-    // {
-    //     id: 10,
-    //     path: "https://www.cancer.org/",
-    //     name: "American Cancer Society"
-    // },
-    // {
-    //     id: 11,
-    //     path: "https://www.hov.org/",
-    //     name: "Hospice of the Valley"
-    // },
     {
         id: 12,
         path: request,
         name: "Request/ Comment/ Compliment Form"
     },
-    // {
-    //     id: 14,
-    //     path: storySubmission,
-    //     name: "Newsletter Story Submission Form"
-    // },
     {
         id: 15,
         path: approvedPlants,
@@ -114,6 +77,11 @@ const LinksData = [
         id: '2020-2021',
         path: accomplishments2021,
         name: '2020-2021 Accomplishments'
+    },
+    {
+        id: '2021-2022',
+        path: accomplishments2022,
+        name: '2021-2022 Accomplishments'
     }
 ]
 
