@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NeighborhoodWatchData, NeighborhoodWatchMinutesData } from '../../Data/NeighborhoodWatchData';
+import { NeighborhoodWatchData } from '../../Data/NeighborhoodWatchData';
 import { StyledNeighboorhoodWatchList } from './NeighborhoodWatchPage.style';
 
 export default class NeighborhoodWatchPage extends Component {
@@ -18,8 +18,6 @@ export default class NeighborhoodWatchPage extends Component {
             <StyledNeighboorhoodWatchList>
                 <h2>Neighborhood Watch Program</h2>
                 {this.renderNWData(NeighborhoodWatchData)}
-                {/* <h2>Neighborhood Watch Meeting Minutes</h2>
-                {this.renderNWData(NeighborhoodWatchMinutesData.reverse())} */}
             </StyledNeighboorhoodWatchList>
         )
     }
