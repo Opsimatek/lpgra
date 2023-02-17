@@ -7,6 +7,7 @@ import firstQuarter2022 from '../images/Newsletter_February_2022.pdf';
 import secondQuarter2022 from '../images/Newsletter_May_2022.pdf';
 import thirdQuarter2022 from '../images/Newsletter_August_2022.pdf';
 import fourthQuarter2022 from '../images/Newsletter_November_2022.pdf';
+import firstQuarter2023 from '../images/Newsletter_February_2023.pdf';
 
 const Newsletters = [
     {
@@ -53,7 +54,12 @@ const Newsletters = [
         id: 'fourthQuarter2022',
         path: fourthQuarter2022,
         name: '4th Quarter 2022 Newsletter'
-    }
+    },
+    {
+        id: 'firstQuarter2023',
+        path: firstQuarter2023,
+        name: '1st Quarter 2023 Newsletter'
+    },
 ];
 
 export default Newsletters;

@@ -24,6 +24,9 @@ import july2022Minutes from '../images/LPGRA_Minutes_July_7_2022.pdf';
 import august2022Minutes from '../images/LPGRA_Minutes_August_4_2022.pdf';
 import september2022Minutes from '../images/LPGRA_Minutes_Sept_1_2022.pdf';
 import october2022Minutes from '../images/LPGRA_Minutes_October_6_2022.pdf';
+import november2022Minutes from '../images/LPGRA_Minutes_November_3_2022.pdf';
+import december2022Minutes from '../images/LPGRA_Minutes_December_1_2022.pdf';
+import january2023Minutes from '../images/LPGRA_Minutes_January_5_2023.pdf';
 
 const MinutesPDFData = [
     {
@@ -150,7 +153,22 @@ const MinutesPDFData = [
         id: '10-2022',
         path: october2022Minutes,
         date: 'October 2022'
-    }
+    },
+    {
+        id: '11-2022',
+        path: november2022Minutes,
+        date: 'November 2022'
+    },
+    {
+        id: '12-2022',
+        path: december2022Minutes,
+        date: 'December 2022'
+    },
+    {
+        id: '01-2023',
+        path: january2023Minutes,
+        date: 'January 2023'
+    },
 ]
 
 export default MinutesPDFData;
