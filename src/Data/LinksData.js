@@ -6,8 +6,26 @@ import rules from '../images/Rules_And_Regs.pdf';
 import accomplishments2020 from '../images/LPGRA_2019-2020_Accomplishments.pdf';
 import accomplishments2021 from '../images/LPGRA_2020-2021_Accomplishments.jpg';
 import accomplishments2022 from '../images/2022_Accomplishments.jpg';
+import newcomers from '../images/Newcomers_Info_Letter.pdf';
+import servicesPg1 from '../images/Resident_services_page_1.pdf';
+import servicesPg2 from '../images/Resident_services_page_2.pdf';
 
 const LinksData = [
+    {
+        id: 21,
+        path: newcomers,
+        name: "Newcomers Meeting RA Information Letter"
+    },
+    {
+        id: 22,
+        path: servicesPg1,
+        name: "Services Provided by Our Residents - Page 1"
+    },
+    {
+        id: 23,
+        path: servicesPg2,
+        name: "Services Provided by Our Residents - Page 2"
+    },
     {
         id: 20,
         path: rules,
