@@ -69,7 +69,7 @@ const LinksData = [
     {
         id: 12,
         path: request,
-        name: "Request/ Comment/ Compliment Form"
+        name: "Comment Form"
     },
     {
         id: 15,

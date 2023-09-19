@@ -23,14 +23,7 @@ export default class ContactPage extends Component {
                     LPGRABoard@gmail.com 
                 </a>
                
-                <a href={request} target="_blank" rel="noopener noreferrer">Request/ Comment/ Compliment Form</a>
-
-                <h3>
-                    Neighborhood Watch:
-                </h3>
-                <a href="mailto:lpgrnw@gmail.com?subject=Contact&nbsp;from&nbsp;Website">
-                    lpgrnw@gmail.com
-                </a>
+                <a href={request} target="_blank" rel="noopener noreferrer">Comment Form</a>
 
                 <h3>Web Developer:</h3>
                 <p>

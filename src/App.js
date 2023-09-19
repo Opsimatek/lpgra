@@ -14,7 +14,6 @@ import {
   MeetingPage, 
   NewslettersListPage, 
   ElectionsPage, 
-  NeighborhoodWatchPage, 
   RequestFormPage } from './routes';
 
 function App() {
@@ -65,10 +64,6 @@ function App() {
               <Route
                 path="/elections"
                 component={ElectionsPage}
-              />
-              <Route
-                path="/neighborhoodWatch"
-                component={NeighborhoodWatchPage}
               />
               <Route
                 path="/requestForm"

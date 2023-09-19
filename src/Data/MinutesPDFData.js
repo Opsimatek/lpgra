@@ -31,6 +31,8 @@ import february2023Minutes from '../images/LPGRA_Minutes_February_2023.pdf';
 import march2023Minutes from '../images/LPGRA_Minutes_March_2_2023.pdf';
 import april2023Minutes from '../images/LPGRA_Minutes_April_6_2023.pdf';
 import may2023Minutes from '../images/LPGRA_Minutes_May_4_2023.pdf';
+import june2023Minutes from '../images/LPGRA_Minutes_June_1_2023.pdf';
+import july2023Minutes from '../images/LPGRA_Minutes_July_07_2023.pdf';
 
 const MinutesPDFData = [
     {
@@ -192,6 +194,16 @@ const MinutesPDFData = [
         id: '05-2023',
         path: may2023Minutes,
         date: 'May 2023'
+    },
+    {
+        id: '06-2023',
+        path: june2023Minutes,
+        date: 'June 2023'
+    },
+    {
+        id: '07-2023',
+        path: july2023Minutes,
+        date: 'July 2023'
     },
 ]
 

@@ -27,14 +27,11 @@ const Menu = ({ open }) => {
             <a href="/board">
                 Meet The Board
             </a>
-            <a href="/neighborhoodWatch">
-                Neighborhood Watch
-            </a>
             <a href="/links">
                 Additional Information
             </a>
             <a href="/requestForm">
-                <span>Request/Concern/</span><span>Compliment Form</span>
+                Comment Form
             </a>
             <a href="/contact">
                 Contact
