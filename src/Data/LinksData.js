@@ -6,6 +6,7 @@ import rules from '../images/Rules_And_Regs.pdf';
 import accomplishments2020 from '../images/LPGRA_2019-2020_Accomplishments.pdf';
 import accomplishments2021 from '../images/LPGRA_2020-2021_Accomplishments.jpg';
 import accomplishments2022 from '../images/2022_Accomplishments.jpg';
+import accomplishments2023 from '../images/LPGRA_BOARD_ACCOMPLISHMENTS _2022-2023.pdf';
 import newcomers from '../images/Newcomers_Info_Letter.pdf';
 import servicesPg1 from '../images/Resident_services_page_1.pdf';
 import servicesPg2 from '../images/Resident_services_page_2.pdf';
@@ -100,6 +101,11 @@ const LinksData = [
         id: '2021-2022',
         path: accomplishments2022,
         name: '2021-2022 Accomplishments'
+    },
+    {
+        id: '2022-2023',
+        path: accomplishments2023,
+        name: '2022-2023 Accomplishments'
     }
 ]
 

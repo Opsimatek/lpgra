@@ -33,6 +33,10 @@ import april2023Minutes from '../images/LPGRA_Minutes_April_6_2023.pdf';
 import may2023Minutes from '../images/LPGRA_Minutes_May_4_2023.pdf';
 import june2023Minutes from '../images/LPGRA_Minutes_June_1_2023.pdf';
 import july2023Minutes from '../images/LPGRA_Minutes_July_07_2023.pdf';
+import august2023Minutes from '../images/LPGRA_Minutes_August_3_2023.pdf';
+import september2023Minutes from '../images/LPGRA_Minutes_September_7_2023.pdf';
+import october2023Minutes from '../images/LPGRA_Minutes_October_5_2023.pdf';
+
 
 const MinutesPDFData = [
     {
@@ -204,6 +208,21 @@ const MinutesPDFData = [
         id: '07-2023',
         path: july2023Minutes,
         date: 'July 2023'
+    },
+    {
+        id: '08-2023',
+        path: august2023Minutes,
+        date: 'August 2023'
+    },
+    {
+        id: '09-2023',
+        path: september2023Minutes,
+        date: 'September 2023'
+    },
+    {
+        id: '10-2023',
+        path: october2023Minutes,
+        date: 'October 2023'
     },
 ]
 
