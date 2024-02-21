@@ -38,6 +38,7 @@ import september2023Minutes from '../images/LPGRA_Minutes_September_7_2023.pdf';
 import october2023Minutes from '../images/LPGRA_Minutes_October_5_2023.pdf';
 import november2023Minutes from '../images/LPGRA_Minutes_November_2_2023.pdf';
 import december2023Minutes from '../images/LPGRA_Minutes_December_7_2023.pdf';
+import january2024Minutes from '../images/LPGRA_Minutes_January_4_2024.pdf';
 
 
 const MinutesPDFData = [
@@ -235,6 +236,11 @@ const MinutesPDFData = [
         id: '12-2023',
         path: december2023Minutes,
         date: 'December 2023'
+    },
+    {
+        id: '01-2024',
+        path: january2024Minutes,
+        date: 'January 2024'
     },
 ]
 

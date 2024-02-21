@@ -39,20 +39,20 @@ const Officers = [
         id: 4,
         position: "Treasurer",
         name: "Cheryl Jorban",
-        unit: null,
-        phoneNumber: null,
-        term: null,
-        email: null,
+        unit: 83,
+        phoneNumber: "253-224-4453",
+        term: 2025,
+        email: "cjorban@yahoo.com",
         photo: CherylJorban
     },
     {
         id: 5,
         position: "Secretary",
         name: "Diana Cline",
-        unit: null,
-        phoneNumber: null,
-        term: null,
-        email: null,
+        unit: 196,
+        phoneNumber: "480-299-6865",
+        term: 2025,
+        email: "diana.and.the.angels@gmail.com",
         photo: DianaCline
     }
 ]
